@@ -102,7 +102,10 @@ export default{
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
   .logo{
-    background: #0000
+    background: #000000;
+    text-align: center;
+    padding: 25px 0;
+    
   }
 
   .banner{
@@ -140,6 +143,7 @@ export default{
     text-decoration: none;
     justify-content: center;
     display: inline-block;
+    margin: 0 30px;
   
   }
 
