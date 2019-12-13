@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="md-12 col md-12">
-            <H2> <small>ALUGUEL PARA EVENTOS</small> <p> VENHA COMEMORAR O SEU ANIVERSÁRIO </p> <p>NA FALKON SPACE </p></H2>
+            <h2> <small>ALUGUEL PARA EVENTOS</small> <p> VENHA COMEMORAR O SEU ANIVERSÁRIO </p> <p>NA FALKON SPACE </p></h2>
           </div>
         </div>
       </div>
@@ -34,15 +34,15 @@
       <div class="container">
         <div class="row">
           <div class="md-12 col-md-4">
-            <img src="./assets/aluguel-1.jpg" alt="">
+            <img class="img-black" src="./assets/aluguel-1.jpg" alt="">
           </div>
 
           <div class="md-12 col-md-4">
-            <img src="./assets/aluguel-2.jpg" alt="">
+            <img class="img-black" src="./assets/aluguel-2.jpg" alt="">
           </div>
 
           <div class="md-12 col-md-4">
-            <img src="./assets/aluguel-3.jpg" alt="">
+            <img class="img-black" src="./assets/aluguel-3.jpg" alt="">
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ export default{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 150vh;
+  min-height: 135vh;
   text-align: center;
   
   }
@@ -160,5 +160,39 @@ export default{
     text-decoration: none;
     justify-content: center;
     display: inline-block;
+  }
+
+  .title-black{
+    background: #000000;
+    text-align: center;
+    padding: 80px 0;
+    
+
+  }
+
+  .title-black small{
+    color: #0061f3;
+    text-align: center;
+    
+    
+  }
+
+  .title-black p{
+    color: #ffffff;
+    text-align: center;
+  
+  }
+
+  .bg-black{
+    background: #000000;
+  }
+
+  .title-black h2{
+    font-size: 36px;
+    line-height: 0;
+  }
+
+  .title-black small{
+    font-size: 21px;
   }
 </style>
