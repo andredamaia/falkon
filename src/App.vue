@@ -81,6 +81,50 @@
             <div class="col-12 text-center">
               <h3>Perguntas Frequentes</h3>
             </div>
+
+            <div class="col-12 col-md-6">
+              <div class="box-question" v-on:click="active = !active" v-bind:class="{ active: false }">
+                  <div class="question-header">
+                    Posso levar comida e bebida?
+
+                    <span><img src="./assets/icon-arrow.png" alt="" /></span>
+                  </div>
+
+                  <div class="question-body" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et arcu pretium, tincidunt mi vel, tincidunt tellus. Vestibulum accumsan dolor quis mi tempor, et tempus mi tempor. Sed hendrerit ligula et tempus ultricies. Donec nibh lectus, volutpat in lectus aliquam, ornare tristique augue.</div>
+              </div>
+
+              <div class="box-question">
+                  <div class="question-header">
+                    O que está incluso no valor?
+
+                    <span><img src="./assets/icon-arrow.png" alt="" /></span>
+                  </div>
+
+                  <div class="question-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et arcu pretium, tincidunt mi vel, tincidunt tellus. Vestibulum accumsan dolor quis mi tempor, et tempus mi tempor. Sed hendrerit ligula et tempus ultricies. Donec nibh lectus, volutpat in lectus aliquam, ornare tristique augue.</div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="box-question">
+                  <div class="question-header">
+                    Quais equipamentos estarão disponíveis?
+
+                    <span><img src="./assets/icon-arrow.png" alt="" /></span>
+                  </div>
+
+                  <div class="question-body" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et arcu pretium, tincidunt mi vel, tincidunt tellus. Vestibulum accumsan dolor quis mi tempor, et tempus mi tempor. Sed hendrerit ligula et tempus ultricies. Donec nibh lectus, volutpat in lectus aliquam, ornare tristique augue.</div>
+              </div>
+
+              <div class="box-question">
+                  <div class="question-header">
+                    Quantas pessoas podem participar da festa?
+
+                    <span><img src="./assets/icon-arrow.png" alt="" /></span>
+                  </div>
+
+                  <div class="question-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et arcu pretium, tincidunt mi vel, tincidunt tellus. Vestibulum accumsan dolor quis mi tempor, et tempus mi tempor. Sed hendrerit ligula et tempus ultricies. Donec nibh lectus, volutpat in lectus aliquam, ornare tristique augue.</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -369,12 +413,11 @@
   </div>
 </template>
 
-
-<script>
-  import "bootstrap/dist/css/bootstrap.css"
+<script defer type="text/javascript">
+  import 'bootstrap/dist/css/bootstrap.css'
 
   export default{
-    name: 'app'
+    name: 'app',
   }
 </script>
 
@@ -487,7 +530,14 @@
     text-decoration: none;
     justify-content: center;
     display: inline-block;
+    transition: all .3s ease-in-out;
   }
+    .button-blue:hover { 
+      background: #0b449a; 
+      box-shadow: 0 0 20px rgba(32,102,208,.3); 
+      color: #fff; 
+      text-decoration: none; 
+    }
 
   .button-white {
     color: #0061f3;
@@ -502,7 +552,14 @@
     text-decoration: none;
     justify-content: center;
     display: inline-block;
+    transition: all .3s ease-in-out;
   }
+    .button-white:hover { 
+      background: #fff; 
+      box-shadow: 0 0 20px rgba(255,255,255,.3); 
+      color: #0061f3; 
+      text-decoration: none; 
+    }
 
   .title-black{
     background: #000000;
@@ -569,4 +626,10 @@
 
   .link-social { color: #a8a7a7; font-size: 16px; display: block; margin-bottom: 10px; }
   .link-social img { margin-right: 10px; }
+
+  .box-question { border: 1px solid #3d3b3b; padding: 20px; cursor: pointer; margin-bottom: 10px; }
+  .question-header { font-size: 21px; color: #b7b7b7; position: relative; }
+  .question-header span { position: absolute; top: 0; right: 10px; }
+
+  .question-body { display: none; margin-top: 15px; }
 </style>
