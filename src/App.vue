@@ -632,4 +632,43 @@
   .question-header span { position: absolute; top: 0; right: 10px; }
 
   .question-body { display: none; margin-top: 15px; }
+
+
+@media (max-width: 948px){
+  
+  .banner .button-blue {
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+
+  .bg-game{
+
+    padding: 90px 0;
+    
+    }
+
+  .bg-game table tr td{
+    padding: 16px 7px;
+    font-size: 15px;
+  }
+
+
+  .question-header {
+
+    font-size: 15px;
+  }
+
+  .button-blue{
+
+  padding: 15px 43px;
+  }
+
+}
+
+
+
+
 </style>
+
+
