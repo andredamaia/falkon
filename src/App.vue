@@ -377,12 +377,12 @@
             <div class="col-12 col-md-3">
               <h5>Redes Sociais</h5>
 
-              <a href="#" class="link-social">
+              <a href="https://www.instagram.com/falkon.space/" target="_blank" class="link-social">
                 <img src="./assets/icon-instagram.png" alt="" />
                 falkon.space
               </a>
 
-              <a href="#" class="link-social">
+              <a href="https://www.facebook.com/Falkon.Space/?ref=br_rs" target="_blank" class="link-social">
                 <img src="./assets/icon-facebook.png" alt="" />
                 falkon.space
               </a>
@@ -642,6 +642,14 @@
     margin-left: 25px;
   }
 
+  .banner h1{
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 90px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
   .bg-game{
 
     padding: 90px 0;
@@ -653,6 +661,46 @@
     font-size: 15px;
   }
 
+  .bg-game th{
+    font-size: 18px;
+  }
+  
+  .bg-game h2{
+    font-size: 27px;
+  }
+
+  .bg-game .button-blue{
+    padding: 15px 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .games-holder .box-game{
+    width: 25%;
+  }
+
+  .bg-black{
+    padding: 70px 0;
+  }
+
+  .bg-black h2{
+    font-size: 30px;
+  }
+
+  .bg-black h3{
+    margin-top: 45px;
+  }
+
+  .bg-black .button-blue{
+    padding: 15px 15px;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .bg-black p {
+     margin-bottom: 20px;
+  }
 
   .question-header {
 
@@ -663,6 +711,15 @@
 
   padding: 15px 43px;
   }
+
+  footer{
+    padding: 80px 0 20px;
+    text-align: center;
+  }
+
+  footer .text-right {
+    text-align: center !important;
+}
 
 }
 
