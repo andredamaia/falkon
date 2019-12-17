@@ -703,7 +703,7 @@
   }
 
   .question-header {
-
+    padding-right: 30px;
     font-size: 15px;
   }
 
@@ -720,6 +720,10 @@
   footer .text-right {
     text-align: center !important;
 }
+
+  .box-game { width: 25%;}
+  .bg-game table tr td:first-child { width: 50%; }
+  .logo img { max-width: 60%; }
 
 }
 
